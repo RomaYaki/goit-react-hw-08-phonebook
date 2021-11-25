@@ -1,0 +1,20 @@
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+.link:hover,
+.link:active {
+  color: rgb(105, 105, 226);
+}
+.link:not(:last-child) {
+  margin-right: 20px;
+}
+.activeLink {
+  color: rgb(105, 105, 226);
+}
+.authNav {
+  display: flex;
+  align-items: center;
+}
